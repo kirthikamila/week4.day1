@@ -6,7 +6,7 @@ public class LearnOverloading2 extends LearnOverloading {
         System.out.println("Status: " + status);
 	}
 	
-	// Overloaded method with three parameters (message, status, and snapshot flag)
+	// Overloaded method with three parameters (message, status, and snapshot )
 	public void reportStep(String msg, String status, boolean snap) {
 	    System.out.println("Message: " + msg);
 	    System.out.println("Status: " + status);
